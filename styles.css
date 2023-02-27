@@ -20,6 +20,15 @@ main {
 .side-bar {
     background-color: lightpink;
     grid-row: 1 / 3;
+    display: grid;
+    grid-gap: 15px;
+}
+ul {
+    border: dashed;
+}
+li {
+    list-style: none;
+    background-color: pink;
 }
 
 .main-content {    
@@ -43,13 +52,8 @@ main {
 .project {
     background-color: aliceblue;
     border-radius: 25px;
-    height: 300px;
-}
-
-.projects p {
-    border: solid;
-    background-color: bisque;
-    grid-column: 1 / 3;
+    /* display: grid; */
+    /* grid-template-rows: 1fr 1fr 1fr; */
 }
 
 .notifications {
